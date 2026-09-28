@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Practical Application Activity</title>
+</head>
+
+<body>
+
+    <!-- MAIN HEADING -->
+
+    <h1 id="main-heading">My HTML Practical Application Activity</h1>
+
+    <p>
+        Welcome to my HTML activity. This page demonstrates images,
+        hyperlinks, multimedia, useful HTML tags, and the HTML DOM.
+    </p>
+
+    <!-- 1. IMAGES -->
+
+    <h2 id="images">Images</h2>
+
+    <p>
+        These images represent computers, technology, and programming.
+    </p>
+
+    <!-- Image 1 -->
+    <img src="images/computer.jpg"
+         alt="A computer"
+         width="300">
+
+    <br><br>
+
+    <!-- Image 2 -->
+    <img src="images/coding.jpg"
+         alt="A person coding on a computer"
+         width="300">
+
+    <br><br>
+
+    <!-- Image 3 using figure and figcaption -->
+    <figure>
+        <img src="images/technology.jpg"
+             alt="Technology and computer equipment"
+             width="300">
+
+        <figcaption>
+            Technology and computers are important tools for learning and communication.
+        </figcaption>
+    </figure>
+
+
+    <!-- 2. HYPERLINKS -->
+
+    <h2 id="links">Hyperlinks</h2>
+
+    <!-- Internal link -->
+    <p>
+        <a href="activity.html">
+            Go to the Activity Page
+        </a>
+    </p>
+
+    <!-- External link -->
+    <p>
+        <a href="https://github.com" target="_blank">
+            Visit GitHub
+        </a>
+    </p>
+
+    <!-- Email link -->
+    <p>
+        <a href="mailto:example@gmail.com">
+            Send me an Email
+        </a>
+    </p>
+
+    <!-- Same-page anchor link -->
+    <p>
+        <a href="#multimedia">
+            Jump to the Multimedia Section
+        </a>
+    </p>
+
+
+    <!-- 3. MULTIMEDIA -->
+
+    <h2 id="multimedia">Multimedia</h2>
+
+    <h3>Audio</h3>
+
+    <audio controls>
+        <source src="media/given-up.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
+    <h3>Video</h3>
+
+    <video width="500" controls>
+        <source src="media/video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+
+    <!-- 4. USEFUL HTML TAGS -->
+
+    <h2 id="useful-tags">Useful HTML Tags</h2>
+
+    <!-- The mark tag highlights important text. -->
+    <p>
+        HTML is <mark>important</mark> for creating web pages.
+    </p>
+
+    <!-- The abbr tag explains an abbreviation. -->
+    <p>
+        I am studying
+        <abbr title="Information Technology">IT</abbr>.
+    </p>
+
+    <!-- The code tag displays computer code. -->
+    <p>
+        An example of an HTML heading is
+        <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>.
+    </p>
+
+    <!-- The blockquote tag displays a quotation. -->
+    <blockquote>
+        Learning HTML is a useful first step in web development.
+    </blockquote>
+
+    <!-- HTML character entity -->
+    <p>
+        &copy; 2026 My HTML Activity
+    </p>
+
+
+    <!-- 5. HTML DOM -->
+
+    <h2 id="dom">HTML DOM</h2>
+
+    <p id="dom-description">
+        The HTML DOM represents a web page as a tree of elements.
+        Each element can have a parent, child, or sibling element.
+    </p>
+
+    <div id="dom-example">
+
+        <h3 id="dom-heading">DOM Example</h3>
+
+        <p>
+            This paragraph is inside the div element.
+        </p>
+
+        <ul>
+            <li>HTML is the parent document.</li>
+            <li>The div is a child of the body.</li>
+            <li>The paragraph is a child of the div.</li>
+        </ul>
+
+    </div>
+
+
+    <!-- ================================= -->
+    <!-- DOM PARENT-CHILD EXPLANATION -->
+    <!-- ================================= -->
+
+    <!--
+    The body element is the parent of the main content on this page.
+    The div with the id "dom-example" is a child of the body element.
+    Inside the div, the h3, p, and ul elements are children of the div.
+    The li elements are children of the ul element.
+    This shows how HTML elements are organized in a parent-child tree.
+    -->
+
+
+</body>
+</html>
